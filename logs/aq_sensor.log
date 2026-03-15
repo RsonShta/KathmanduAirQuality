@@ -1,0 +1,21 @@
+2026-03-15 16:52:23 | INFO | [16:52:23] Data Sent: PM2.5: 102.11 µg/m³ | PM10: 142.95 µg/m³ | CO2: 882.6 ppm | Temp: 20.8°C | Humidity: 45.7% | Status: High Pollution
+2026-03-15 16:52:23 | INFO | Connected to ThingsBoard Cloud
+2026-03-15 16:52:33 | INFO | [16:52:33] Data Sent: PM2.5: 117.93 µg/m³ | PM10: 165.1 µg/m³ | CO2: 776.2 ppm | Temp: 24.3°C | Humidity: 52.3% | Status: High Pollution
+2026-03-15 16:52:43 | INFO | [16:52:43] Data Sent: PM2.5: 144.16 µg/m³ | PM10: 201.82 µg/m³ | CO2: 967.3 ppm | Temp: 22.0°C | Humidity: 48.7% | Status: High Pollution
+2026-03-15 16:52:53 | INFO | [16:52:53] Data Sent: PM2.5: 149.5 µg/m³ | PM10: 209.3 µg/m³ | CO2: 581.2 ppm | Temp: 21.0°C | Humidity: 48.5% | Status: High Pollution
+2026-03-15 16:53:03 | INFO | [16:53:03] Data Sent: PM2.5: 149.04 µg/m³ | PM10: 208.66 µg/m³ | CO2: 514.1 ppm | Temp: 21.8°C | Humidity: 57.1% | Status: High Pollution
+2026-03-15 16:53:13 | INFO | [16:53:13] Data Sent: PM2.5: 107.66 µg/m³ | PM10: 150.72 µg/m³ | CO2: 435.4 ppm | Temp: 21.2°C | Humidity: 58.8% | Status: High Pollution
+2026-03-15 16:53:23 | INFO | [16:53:23] Data Sent: PM2.5: 147.24 µg/m³ | PM10: 206.14 µg/m³ | CO2: 957.6 ppm | Temp: 22.1°C | Humidity: 49.6% | Status: High Pollution
+2026-03-15 16:53:33 | INFO | [16:53:33] Data Sent: PM2.5: 100.84 µg/m³ | PM10: 141.18 µg/m³ | CO2: 911.4 ppm | Temp: 22.1°C | Humidity: 62.6% | Status: High Pollution
+2026-03-15 16:53:43 | INFO | [16:53:43] Data Sent: PM2.5: 160.24 µg/m³ | PM10: 224.34 µg/m³ | CO2: 469.6 ppm | Temp: 20.0°C | Humidity: 47.3% | Status: High Pollution
+2026-03-15 16:53:53 | INFO | [16:53:53] Data Sent: PM2.5: 99.06 µg/m³ | PM10: 138.68 µg/m³ | CO2: 598.2 ppm | Temp: 20.1°C | Humidity: 51.7% | Status: Normal
+2026-03-15 16:54:03 | INFO | [16:54:03] Data Sent: PM2.5: 93.08 µg/m³ | PM10: 130.31 µg/m³ | CO2: 581.3 ppm | Temp: 25.8°C | Humidity: 56.3% | Status: Normal
+2026-03-15 16:54:13 | INFO | [16:54:13] Data Sent: PM2.5: 135.35 µg/m³ | PM10: 189.49 µg/m³ | CO2: 581.8 ppm | Temp: 21.6°C | Humidity: 51.6% | Status: High Pollution
+2026-03-15 16:54:22 | INFO | Simulation stopped by user.
+2026-03-15 16:54:22 | INFO | Disconnected safely.
+2026-03-15 16:54:25 | INFO | [16:54:25] Data Sent: PM2.5: 117.88 µg/m³ | PM10: 165.03 µg/m³ | CO2: 488.8 ppm | Temp: 21.9°C | Humidity: 62.5% | Status: Normal
+2026-03-15 16:54:25 | INFO | Connected to ThingsBoard Cloud
+2026-03-15 16:54:35 | INFO | [16:54:35] Data Sent: PM2.5: 108.52 µg/m³ | PM10: 151.93 µg/m³ | CO2: 830.0 ppm | Temp: 25.8°C | Humidity: 51.6% | Status: Normal
+2026-03-15 16:54:45 | INFO | [16:54:45] Data Sent: PM2.5: 110.83 µg/m³ | PM10: 155.16 µg/m³ | CO2: 792.7 ppm | Temp: 25.2°C | Humidity: 56.4% | Status: Normal
+2026-03-15 16:54:52 | INFO | Simulation stopped by user.
+2026-03-15 16:54:52 | INFO | Disconnected safely.

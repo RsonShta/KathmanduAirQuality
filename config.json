@@ -1,0 +1,12 @@
+{
+  "thingsboard_host": "mqtt.thingsboard.cloud",
+  "access_token": "XlYKxvYFK6BHfuoBb2zj",
+  "client_id": "ktm_sensor_01",
+  "telemetry_interval": 10,
+  "safe_values": {
+    "pm25": 100,
+    "pm10": 150,
+    "co2": 800,
+    "no2": 80
+  }
+}
