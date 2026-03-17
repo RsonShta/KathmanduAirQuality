@@ -13,7 +13,7 @@ def get_kathmandu_data():
     base_pm25 = 60.0
     
     # Simulate rush hour
-    if (7 <= hour <= 10) or (15 <= hour <= 19):
+    if (7 <= hour <= 10) or (16 <= hour <= 19):
         peak_multiplier = random.uniform(1.5, 3.0)  # high pollution
     else:
         peak_multiplier = random.uniform(0.8, 1.2)  # normal

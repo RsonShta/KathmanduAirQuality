@@ -14,8 +14,7 @@ with open("config.json") as f:
 THINGSBOARD_HOST = config["thingsboard_host"]
 ACCESS_TOKEN = config["access_token"]
 CLIENT_ID = config["client_id"]
-INTERVAL = config.get("telemetry_interval", 10)
-SAFE = config.get("safe_values", {})
+INTERVAL = config.get("telemetry_interval")
 
 # ----------------------
 # Setup Logging
@@ -48,36 +47,28 @@ client.username_pw_set(ACCESS_TOKEN)
 try:
     client.connect(THINGSBOARD_HOST, 1883, 60)
     client.loop_start()
-    
+
     print("Starting Kathmandu Air Quality Station...")
     print("-------------------------------------------")
-    
+
     while True:
-        # Generate telemetry
+        # Generate telemetry data
         data = get_kathmandu_data()
-        
-        # Determine status based on safe thresholds
-        if data["pm25"] > SAFE.get("pm25", 100):
-            status = "High Pollution"
-        else:
-            status = "Normal"
-        
-        data["status"] = status
-        
-        # Logging
+
+        # Logging output
         timestamp = datetime.now().strftime("%H:%M:%S")
         log_msg = (
             f"[{timestamp}] Data Sent: PM2.5: {data['pm25']} µg/m³ | "
             f"PM10: {data['pm10']} µg/m³ | CO2: {data['co2']} ppm | "
-            f"Temp: {data['temperature']}°C | Humidity: {data['humidity']}% | "
-            f"Status: {status}"
+            f"Temp: {data['temperature']}°C | Humidity: {data['humidity']}%"
         )
+
         print(log_msg)
         logging.info(log_msg)
-        
+
         # Publish telemetry to ThingsBoard
         client.publish("v1/devices/me/telemetry", json.dumps(data), qos=1)
-        
+
         time.sleep(INTERVAL)
 
 except KeyboardInterrupt:
