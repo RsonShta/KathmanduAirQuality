@@ -14,7 +14,7 @@ with open("config.json") as f:
 THINGSBOARD_HOST = config["thingsboard_host"]
 ACCESS_TOKEN = config["access_token"]
 CLIENT_ID = config["client_id"]
-INTERVAL = config.get("telemetry_interval")
+INTERVAL = config.get("telemetry_interval", 10)  # default to 10s if not set
 
 # ----------------------
 # Setup Logging
@@ -53,14 +53,15 @@ try:
 
     while True:
         # Generate telemetry data
-        data = get_kathmandu_data()
+        data = get_kathmandu_data()  # make sure it returns 'no2' as well
 
         # Logging output
         timestamp = datetime.now().strftime("%H:%M:%S")
         log_msg = (
             f"[{timestamp}] Data Sent: PM2.5: {data['pm25']} µg/m³ | "
-            f"PM10: {data['pm10']} µg/m³ | CO2: {data['co2']} ppm | "
-            f"Temp: {data['temperature']}°C | Humidity: {data['humidity']}%"
+            f"PM10: {data['pm10']} µg/m³ | NO2: {data['no2']} µg/m³ | "
+            f"CO2: {data['co2']} ppm | Temp: {data['temperature']}°C | "
+            f"Humidity: {data['humidity']}%"
         )
 
         print(log_msg)

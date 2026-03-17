@@ -1282,3 +1282,11 @@
 2026-03-17 12:17:33 | INFO | [12:17:33] Data Sent: PM2.5: 94.93 µg/m³ | PM10: 132.1 µg/m³ | CO2: 574.9 ppm | Temp: 22.9°C | Humidity: 37.8%
 2026-03-17 12:17:38 | INFO | Simulation stopped by user.
 2026-03-17 12:17:39 | INFO | Disconnected safely.
+2026-03-17 12:20:40 | INFO | [12:20:40] Data Sent: PM2.5: 100.15 µg/m³ | PM10: 139.82 µg/m³ | NO2: 51.7 µg/m³ | CO2: 680.0 ppm | Temp: 21.9°C | Humidity: 55.2%
+2026-03-17 12:20:41 | INFO | Connected to ThingsBoard Cloud
+2026-03-17 12:20:50 | INFO | [12:20:50] Data Sent: PM2.5: 100.64 µg/m³ | PM10: 141.11 µg/m³ | NO2: 47.7 µg/m³ | CO2: 636.2 ppm | Temp: 21.9°C | Humidity: 55.7%
+2026-03-17 12:21:00 | INFO | [12:21:00] Data Sent: PM2.5: 132.03 µg/m³ | PM10: 187.12 µg/m³ | NO2: 69.4 µg/m³ | CO2: 641.3 ppm | Temp: 22.0°C | Humidity: 55.8%
+2026-03-17 12:21:10 | INFO | [12:21:10] Data Sent: PM2.5: 115.22 µg/m³ | PM10: 159.98 µg/m³ | NO2: 58.3 µg/m³ | CO2: 623.2 ppm | Temp: 22.1°C | Humidity: 56.2%
+2026-03-17 12:21:20 | INFO | [12:21:20] Data Sent: PM2.5: 110.51 µg/m³ | PM10: 155.86 µg/m³ | NO2: 53.5 µg/m³ | CO2: 635.8 ppm | Temp: 22.0°C | Humidity: 55.9%
+2026-03-17 12:21:29 | INFO | Simulation stopped by user.
+2026-03-17 12:21:30 | INFO | Disconnected safely.
