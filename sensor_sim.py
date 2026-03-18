@@ -4,7 +4,7 @@ Simulates air quality data for Kathmandu.
 
 - Generates pollutant values (PM2.5, PM10, NO2, CO2)
 - Simulates temperature and humidity changes
-- Calculates ONLY the final AQI value (no sub AQI shown)
+- Calculates ONLY the final AQI value based on pollutant concentrations using standard breakpoint tables.
 """
 
 import random
