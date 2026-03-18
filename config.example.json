@@ -1,0 +1,13 @@
+{
+  "thingsboard_host": "mqtt.thingsboard.cloud",
+  "access_token": "YOUR_ACCESS_TOKEN",
+  "client_id": "your_device_id",
+  "telemetry_interval": 10,
+  "safe_values": {
+    "pm25": 100,
+    "pm10": 150,
+    "co2": 800,
+    "no2": 80,
+    "aqi": 150
+  }
+}
